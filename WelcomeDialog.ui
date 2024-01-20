@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>WelcomeDialog</class>
- <widget class="QDialog" name="WelcomeDialog">
+ <class>WelcomeDialogWindow</class>
+ <widget class="QDialog" name="WelcomeDialogWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -35,10 +35,10 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QGroupBox" name="horizontalGroupBox">
+    <widget class="QGroupBox" name="GroupBox1">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <layout class="QGridLayout" name="gridLayout_2">
+       <layout class="QGridLayout" name="GridLayout1">
         <item row="2" column="0">
          <widget class="QLabel" name="Name1">
           <property name="text">
@@ -126,7 +126,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox">
+    <widget class="QGroupBox" name="GroupBox2">
      <property name="maximumSize">
       <size>
        <width>16777215</width>
@@ -138,7 +138,7 @@
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
       <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="ContinueButton">
         <property name="maximumSize">
          <size>
           <width>150</width>
@@ -593,7 +593,7 @@
        </widget>
       </item>
       <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="ExitButton">
         <property name="maximumSize">
          <size>
           <width>150</width>

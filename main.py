@@ -3,7 +3,7 @@
 from WelcomeDialog import *
 from PyQt5.QtWidgets import QApplication, QDialog
 
-class WelcomeDialog(QDialog, Ui_WelcomeDialog):
+class WelcomeDialog(QDialog, Ui_WelcomeDialogWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
