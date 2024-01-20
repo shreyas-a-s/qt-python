@@ -44,7 +44,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="WelcomeHeader">
       <property name="font">
        <font>
         <pointsize>18</pointsize>
@@ -73,7 +73,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="ThanksText">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -102,7 +102,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_3">
     <item>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="Name3">
       <property name="text">
        <string>Dr. Sabarinath Subramaniam (Director &amp; CEO @ Bharat Genome Database)</string>
       </property>
@@ -124,7 +124,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_5">
     <item>
-     <widget class="QLabel" name="label_5">
+     <widget class="QLabel" name="DevelopedByText">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -153,7 +153,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_6">
     <item>
-     <widget class="QLabel" name="label_6">
+     <widget class="QLabel" name="Name1">
       <property name="text">
        <string>Shreyas A S (System Administrator @ Bharat Genome Database)</string>
       </property>
@@ -175,7 +175,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_7">
     <item>
-     <widget class="QLabel" name="label_7">
+     <widget class="QLabel" name="Name2">
       <property name="text">
        <string>Sastha Kumar N (Research Administrator &amp; Developer @ Bharat Genome Database)</string>
       </property>
@@ -197,7 +197,7 @@
    </property>
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="1">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="Continue">
       <property name="maximumSize">
        <size>
         <width>150</width>
@@ -652,7 +652,7 @@
      </widget>
     </item>
     <item row="0" column="0">
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="Exit">
       <property name="maximumSize">
        <size>
         <width>150</width>
