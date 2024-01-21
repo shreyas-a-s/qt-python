@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>WelcomeDialogWindow</class>
- <widget class="QMainWindow" name="WelcomeDialogWindow">
+ <class>DBCredsWindow</class>
+ <widget class="QMainWindow" name="DBCredsWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -43,7 +43,7 @@
          </widget>
         </item>
         <item>
-         <spacer name="verticalSpacer_2">
+         <spacer name="VSpacer2">
           <property name="orientation">
            <enum>Qt::Vertical</enum>
           </property>
@@ -58,47 +58,47 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QLabel" name="label">
+           <widget class="QLabel" name="DBName">
             <property name="text">
              <string>Database Name:</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit"/>
+           <widget class="QLineEdit" name="DBNameInputBox"/>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="DBUsername">
             <property name="text">
              <string>Username: </string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_2"/>
+           <widget class="QLineEdit" name="DBUsernameInputBox"/>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QLabel" name="label_3">
+           <widget class="QLabel" name="DBPassword">
             <property name="text">
              <string>Password: </string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_3"/>
+           <widget class="QLineEdit" name="DBPasswordInputBox"/>
           </item>
          </layout>
         </item>
         <item>
-         <spacer name="verticalSpacer">
+         <spacer name="VSpacer3">
           <property name="orientation">
            <enum>Qt::Vertical</enum>
           </property>
@@ -1060,7 +1060,7 @@
      </layout>
     </item>
     <item row="1" column="2">
-     <spacer name="horizontalSpacer">
+     <spacer name="HSpacer2">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
@@ -1073,7 +1073,7 @@
      </spacer>
     </item>
     <item row="2" column="1">
-     <spacer name="verticalSpacer_4">
+     <spacer name="VSpacer4">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
@@ -1086,7 +1086,7 @@
      </spacer>
     </item>
     <item row="0" column="1">
-     <spacer name="verticalSpacer_3">
+     <spacer name="VSpacer1">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
@@ -1099,7 +1099,7 @@
      </spacer>
     </item>
     <item row="1" column="0">
-     <spacer name="horizontalSpacer_2">
+     <spacer name="HSpacer1">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
