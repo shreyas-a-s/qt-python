@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from WelcomeDialog import *
 from PyQt5.QtWidgets import QApplication, QDialog
